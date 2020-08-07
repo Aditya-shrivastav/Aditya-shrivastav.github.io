@@ -360,6 +360,10 @@ a{
         width:90%;
         height:90%;
     }
+    .home .image img{
+        width:150px;
+        height:150px;
+    }
     .home .image{
         grid-row:1/2;
         grid-column:1/4;
@@ -384,8 +388,32 @@ a{
         overflow:scroll;
     }
 }
-@media only screen and (max-device-width: 850px) and (orientation: landscape) {
+@media (max-width:330px){
+    .about{
+        width:84%;
+        height:84%;
+        grid-template-rows: 90px 320px 400px 330px 310px 410px 250px 250px;
+    }
+    .home{
+        overflow: scroll;
+    }
+    .home .image img{
+        width:120px;
+        height:120px;
+    }
+    .home .social-handle{
+        grid-row:3/5;
+        grid-column:1/4;
+    }
+    .contact{
+        height:84%;
+    }
+    .contact div{
+        font-size: 12px;
+    }
 
+}
+@media only screen and (max-device-width: 850px) and (orientation: landscape) {
     .home{
         width:90%;
         height:90%;
@@ -424,5 +452,8 @@ a{
     }
     span{
         font-size:25px;
+    }
+    .home{
+        overflow: scroll;
     }
 }
