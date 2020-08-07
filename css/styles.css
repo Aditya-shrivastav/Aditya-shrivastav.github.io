@@ -380,6 +380,9 @@ a{
     span{
         font-size:25px;
     }
+    #certificates{
+        overflow:scroll;
+    }
 }
 @media only screen and (max-device-width: 850px) and (orientation: landscape) {
 
