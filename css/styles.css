@@ -377,6 +377,9 @@ a{
     #certificates section{
         padding:5px;
     }
+    span{
+        font-size:25px;
+    }
 }
 @media only screen and (max-device-width: 850px) and (orientation: landscape) {
 
@@ -415,5 +418,8 @@ a{
     }
     #certificates div{
         font-size: 15px;
+    }
+    span{
+        font-size:25px;
     }
 }
